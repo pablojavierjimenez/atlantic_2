@@ -25,7 +25,8 @@
     "wayou.vscode-todo-highlight",
     "simonsiefke.svg-preview",
     "gruntfuggly.todo-tree",
-    "hookyqr.beautify"
+    "hookyqr.beautify",
+    "eliverlara.andromeda"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

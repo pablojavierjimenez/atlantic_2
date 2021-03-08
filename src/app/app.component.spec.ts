@@ -15,6 +15,25 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
+  // este esta textual lo dejo jasmine/karma
+  it('should create the app', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app).toBeTruthy();
+  });
+
+  it(`should have as title 'atlantic'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('atlantic');
+  });
+
+  it('should render title', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.content span').textContent).toContain('atlantic app is running!');
+  });
 
   test('TL: should render counter', async () => {
 
