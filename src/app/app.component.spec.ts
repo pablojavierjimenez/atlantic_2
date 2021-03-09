@@ -15,20 +15,23 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
+  it('INFO: Prefix meaning', () => {
+    console.log(' prefix JT is for Jest\n', 'prefix TL is for testingLibrary\n', 'prefix ST is for SpecTator\n');
+  });
   // este esta textual lo dejo jasmine/karma
-  it('should create the app', () => {
+  it('JT: should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'atlantic'`, () => {
+  it(`JT: should have as title 'atlantic'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('atlantic');
   });
 
-  it('should render title', () => {
+  it('JT: should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
@@ -36,10 +39,8 @@ describe('AppComponent', () => {
   });
 
   test('TL: should render counter', async () => {
-
     // const { getByText, queryByLabelText} = await render(AppComponent);
     // getByText('texto loco');
-
     await render(AppComponent, {
       componentProperties: { titleText: 'texto de prueva' },
     });

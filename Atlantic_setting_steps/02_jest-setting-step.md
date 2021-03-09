@@ -23,7 +23,15 @@
   :~$ npm install jest -g
 
   # Install Jest as a globbal dependency
-  :~$ npm i -D jest jest-preset-angular @types/jest @angular-builders/jest
+  :~$ npm i -D 
+  jest
+  @types/jest
+  jest-preset-angular
+  @angular-builders/jest
+  babel-jest
+  @babel/core
+  @babel/preset-env
+  @babel/preset-typescript 
   ```
 
 - **Step 2: Configure Jest**
