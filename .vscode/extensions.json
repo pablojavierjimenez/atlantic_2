@@ -26,7 +26,10 @@
     "simonsiefke.svg-preview",
     "gruntfuggly.todo-tree",
     "hookyqr.beautify",
-    "eliverlara.andromeda"
+    "eliverlara.andromeda",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer-2"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
