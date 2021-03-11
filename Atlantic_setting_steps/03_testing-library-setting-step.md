@@ -46,7 +46,7 @@ tsconfig.spec.json
   "compilerOptions": {
     ...,
     "types": [
-      "jest", <- new
+      "jest",
       ...
     ]
   }
@@ -58,8 +58,8 @@ tsconfig.json
   ...,
   "compilerOptions": {
     ...,
-    "esModuleInterop": true, <- new
-    "emitDecoratorMetadata": true, <- new
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
     ...
   },
   ...
@@ -101,3 +101,14 @@ Now the project is ready to have better tests written for it and by using Angula
 - [**here are an Angular testing library tutorial**](https://timdeschryver.dev/blog/good-testing-practices-with-angular-testing-library)
 
 - [**here you find a real implementation of Angular component and test files with testing library examples**](https://github.com/testing-library/angular-testing-library/tree/master/apps/example-app/app/examples)
+
+
+## Step - 4: Install Spectator
+Now the project is ready to have better tests written for it and by using Angular Testing Library the tests can be simplified with some great helpers.
+
+```bash
+:~$ npm install --save-dev @testing-library/angular
+```
+- [**here are an Angular testing library tutorial**](https://ngneat.github.io/spectator/)
+
+- [**here you find examples Angular component tested with spectator**](https://ngneat.github.io/spectator/docs/testing-components)
