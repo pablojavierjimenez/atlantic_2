@@ -1,13 +1,13 @@
-## How Setting Jest as a unit testing test tool
+# How Setting Jest as a unit testing test tool
 
 **[⬅️ back to index](./00_index.md)**
 
-### \*IMPORTANT!!!
+## \*IMPORTANT
 
 - _I use this tutorial to set up again_ [_*LINK HERE*_](https://www.youtube.com/watch?v=cnfpdSzSUH4&ab_channel=TypeWithMe)
 - [Angular jest builder](https://github.com/just-jeb/angular-builders/tree/master/packages/jest#jest-builder-for-angular-build-facade)
 
-### Nota:
+### Nota
 
 - Here you can find the [Jest API Documentation](https://jestjs.io/docs/en/api)
 - [Angular jest builder - Documentation](https://www.npmjs.com/package/@angular-builders/jest)
@@ -40,6 +40,7 @@
 - **Step 2: Configure Jest**
 
   - **Step 2-A:** Edit the `tsconfig.spec.json` and fill it with the next content:
+
     ```JSON
     {
       "extends": "./tsconfig.base.json",
@@ -55,6 +56,7 @@
       "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
     }
     ```
+
   - **Step 2-B:** Modify the `tsconfig.base.json` to add the nex configuration key:
 
     ```JSON
@@ -66,6 +68,7 @@
     ```
 
   - **Step 2-C:** Modify the `angular.json` search the test object and replace with this:
+
     ```JSON
     "test": {
       "builder": "@angular-builders/jest:run",
@@ -82,16 +85,19 @@
   import "jest-preset-angular";
   ```
 
-* **Step 4: Edit package.json to include Jest**
+- **Step 4: Edit package.json to include Jest**
 
   then update the `package.json` with the following content:
 
   1. Modify the test scripts to the following:
+
      ```JSON
        "test": "jest",
        "coverage": "jest --coverage",
      ```
+
   2. Add Jest configuration to the end of the `package.json` file
+  
      ```JSON
      "jest": {
        "preset": "jest-preset-angular",
