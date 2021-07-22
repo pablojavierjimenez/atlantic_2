@@ -2,7 +2,9 @@
   &__container {
     align-items: center;
     background-color: #c3002f;
+    box-sizing: border-box;
     color: #ffffff;
-    padding: 0.5vh 1vw;
+    height: calc(100vh - 10.3vh);
+    padding: 1vw;
   }
 }

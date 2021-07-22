@@ -2,7 +2,12 @@
   &__container {
     align-items: center;
     background-color: #ffffff;
+    box-sizing: border-box;
     color: #c3002f;
+    display: grid;
+    grid-template-rows: 1vh 5vh 1fr 4vh;
+    height: 100vh;
+    max-height: 99.8vh;
   }
 
   &__body {
