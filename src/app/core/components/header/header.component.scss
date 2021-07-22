@@ -1,0 +1,41 @@
+.app_header {
+  &__container {
+    align-items: center;
+    background-color: #1976d2;
+    color: #ffffff;
+    display: flex;
+    font-weight: 600;
+    height: 60px;
+    justify-content: space-between;
+    left: 0;
+    padding: 4px 10px;
+    // position: absolute;
+    right: 0;
+    top: 0;
+
+    img {
+      margin: 0 16px;
+    }
+  }
+
+  &__brandContainer {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+    a {
+      align-self: center;
+      color: #ffffff;
+      padding: 4px;
+    }
+  }
+}
+
+#youtube-logo {
+  height: 40px;
+  margin-left: 16px;
+}
+
+#youtube-logo:hover {
+  opacity: 0.8;
+}

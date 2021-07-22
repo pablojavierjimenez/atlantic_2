@@ -1,0 +1,21 @@
+.app_brandTopBar {
+  &__container {
+    display: flex;
+    height: 1vh;
+    width: 100vw;
+  }
+
+  &__blue,
+  &__red {
+    min-height: 20%;
+    width: 20%;
+  }
+
+  &__blue {
+    background-color: #ffffff;
+  }
+
+  &__red {
+    background-color: #ff0000;
+  }
+}

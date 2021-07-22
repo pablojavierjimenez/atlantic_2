@@ -1,0 +1,15 @@
+.app_commonPage {
+  &__container {
+    align-items: center;
+    background-color: #ffffff;
+    color: #c3002f;
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__content {
+    padding: 0.5vh 1vw;
+  }
+}
