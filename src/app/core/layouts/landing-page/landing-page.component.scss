@@ -1,0 +1,20 @@
+.app_landingPage {
+  &__container {
+    align-items: center;
+    background-color: #c3002f;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    height: 99vh;
+    justify-content: center;
+    max-height: 99.8vh;
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__content {
+    padding: 0.5vh 1vw;
+  }
+}
