@@ -1,0 +1,15 @@
+.app_aside {
+  &__container {
+    align-items: center;
+    background-color: #c3002f;
+    box-sizing: border-box;
+    color: #ffffff;
+    height: calc(100vh - 10.3vh);
+    padding: 1vw;
+
+    a {
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+}

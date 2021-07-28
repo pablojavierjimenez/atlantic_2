@@ -31,18 +31,30 @@
     "extends": [
       "stylelint-config-standard",
       "stylelint-config-sass-guidelines",
-      "stylelint-config-idiomatic-order"
+      "stylelint-order",
+      // optionals
+      // "stylelint-config-rational-order",
+      // "stylelint-config-idiomatic-order"
     ],
     "rules": {
-      "at-rule-no-unknown": null,
-      "scss/at-rule-no-unknown": true,
-      "order/order": [
-        "custom-properties",
-        "declarations"
-      ],
-      "order/properties-order": null
-    }
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "order/order": ["custom-properties", "declarations"],
+    "selector-max-id": 3,
+    "at-rule-blacklist": ["extend"],
+
+    "max-nesting-depth": 4,
+
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-no-invalid-hex": true,
+
+    "max-line-length": 120,
+    "selector-class-pattern": "^([a-z][a-zA-Z0-9\\-\\_]*)(-_[a-z0-9]+)*$",
+    "string-quotes": "single"
   }
+  }
+
   ```
 
 ---

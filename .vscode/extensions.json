@@ -29,7 +29,10 @@
     "eliverlara.andromeda",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "esbenp.prettier-vscode",
-    "coenraads.bracket-pair-colorizer-2"
+    "coenraads.bracket-pair-colorizer-2",
+    "eliverlara.andromeda",
+    "streetsidesoftware.code-spell-checker-spanish",
+    "stylelint.vscode-stylelint"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
