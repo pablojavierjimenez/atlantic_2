@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'atlantic';
   titleText = 'texto loco';
-  userIsLogged = true;
+  userIsLogged = false;
 }

@@ -35,9 +35,14 @@
       padding: 8px 0;
     }
 
-    input {
+    input,
+    button {
       font-size: 18px;
       padding: 4px;
     }
+  }
+
+  &__submitButton {
+    text-align: center;
   }
 }

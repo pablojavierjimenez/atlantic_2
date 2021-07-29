@@ -3,15 +3,15 @@
   <nav>
     <ul>
       <li>
-        <a routerLink="/home">Home</a>
+        <a [routerLink]="[ '/home' ]" routerLinkActive="router-link-active">Home</a>
       </li>
       <li>
-        <a routerLink="/about">About</a>
+        <a [routerLink]="[ '/about' ]" routerLinkActive="router-link-active">About</a>
       </li>
       <li>
-        <a routerLink="/not-found">not-found</a>
+        <a [routerLink]="[ '/not-found' ]" routerLinkActive="router-link-active">Not-found</a>
       </li>
-      <li>y este se quedo vacio</li>
+      <a [routerLink]="[ '/login' ]" routerLinkActive="router-link-active">login</a>
     </ul>
   </nav>
 </aside>
