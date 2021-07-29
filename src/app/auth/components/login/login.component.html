@@ -1,13 +1,36 @@
 <section class="app_login__container">
   <h2>Login works!</h2>
-  <form class="app_login__content">
+  <form
+    class="app_login__content"
+    #loginForm="ngForm"
+    (ngSubmit)="onSubmit(loginForm)"
+  >
     <label for="userMail">
       <div>email</div>
-      <input type="text" id="userMail" name="userMail" />
+      <input
+        type="email"
+        id="userMail"
+        name="userMail"
+        placeholder="Enter your email"
+        required
+        ngModel
+        #userMail="ngModel"
+      />
     </label>
     <label for="userPassword">
       <div>password</div>
-      <input type="password" id="userPassword" name="userPassword" />
+      <input
+        type="password"
+        id="userPassword"
+        name="userPassword"
+        placeholder="Enter your Password"
+        required
+        ngModel
+        #userPassword="ngModel"
+      />
     </label>
+    <div class="app_login__submitButton">
+      <button type="submit">Login</button>
+    </div>
   </form>
 </section>
