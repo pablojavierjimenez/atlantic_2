@@ -4,6 +4,13 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "paths": {
+      "@shared/*": ["src/app/shared/*"],
+      "@auth/*":["src/app/auth/*"],
+      "@models/*":["src/app/models"],
+      "assets/*":["src/assets/*"],
+      "@env/*":["src/environments/*"]
+    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
