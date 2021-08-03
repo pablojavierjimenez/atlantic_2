@@ -4,6 +4,8 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
+    "usernamehw.errorlens",
+    "mhutchie.git-graph",
 		"aaron-bond.better-comments",
     "ms-vscode.sublime-keybindings",
     "streetsidesoftware.code-spell-checker",
